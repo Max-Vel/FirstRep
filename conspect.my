@@ -1,6 +1,17 @@
-ddddd
-uyy
+git 
+git -v
+git -h
 
-ffff
+ls              - відкрити структуру проєкта (видимі файли)
+ls -h           - відкрити скриті файли
+ls -Force       - відкрити структуру проєкта (всі файли)
 
-zxcc
+git status      - переглянути стан
+git add .       - додати всі файли в Stage Area
+
+git commit -m "My first commit"    - створити коміт
+
+git log         - переглянути коміти
+
+git push                       - відправити на сервер GitHub
+git push -u origin main        - відправити на сервер GitHub
